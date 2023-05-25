@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  background-image: url('https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz');
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+header div {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.header-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.title {
+  background-color: #AFD3E2;
+  color: #146C94;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.principal-title {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Main */
+
+/* Personal Data */
+
+.white-div {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  border: none;
+  background-color: #146C94;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition-property: opacity scale;
+  transition-duration: .3s;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 80%;
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.secondary-title {
+  padding-left: 20px;
+}
+
+li {
+  padding: 5px 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+li span {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Study information */
+
+.description-box {
+  padding-left: 28px;
+}
+
+.description-text {
+  padding-left: 38px;
+}
+
+.year {
+  font-weight: bold;
+}
+
+dl dt span {
+  font-weight: normal;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #146C94;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 17px;
+  margin: 0;
+}
+
+.back {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.about-me {
+  padding: 0 20px;
+}
+
+.title-about-me {
+  font-size: 40px;
+  font-weight: 700;
+  color: #146C94;
+}
+
+.text-about-me {
+  font-size: 25px;
+  line-height: 2;
+}
+
+.portfolio {
+  all: unset;
+  color: #146C94;
+  text-decoration: underline;
+}
